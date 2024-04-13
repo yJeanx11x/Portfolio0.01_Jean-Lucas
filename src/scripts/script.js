@@ -1,5 +1,5 @@
 let sumidao=ScrollReveal({reset:true});
-sumidao.reveal('.cabecalho',{duration:4700})
+sumidao.reveal('.cabecalho',{duration:3700})
 sumidao.reveal('.nome',{duration:1000})
 sumidao.reveal('.nome1',{ rotate:{x:100,y:0,z:0},duration:3500})
 sumidao.reveal('.descricao',{  rotate:{x:32,y:0,z:0},duration:2500 })
