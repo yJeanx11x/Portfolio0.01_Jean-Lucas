@@ -49,8 +49,8 @@ main {
 .cabecalho,
 .sobre,
 .perfil,
-.Projetos ,
-.contatos{
+.Projetos,
+.contatos {
   visibility: hidden;
 }
 .QuemSouEu {
@@ -61,44 +61,49 @@ main {
   border-radius: 25% 15% 15% 90%;
   margin-top: -180px;
 }
-.QuemSouEu p {
-  margin-top: -145px;
+.descricao {
+  margin-top: -340px;
   font-size: 20pt;
-  margin-left: 10px;
   text-align: center;
   width: 600px;
   line-height: 2.5rem;
+  margin-left: auto;
+  margin-right: 180px;
 }
 .QuemSouEu,
 .foto {
   margin-left: 20%;
-  opacity: 75%;
+  opacity: 100%;
 }
 
 /* sobre */
 
 section {
-  margin-top: 450px;
+  margin-top: 460px;
   display: flex;
 }
+.sobre {
+  justify-content: center;
+  margin-right: 150px;
+}
 
-.icone img {
+.sobre img {
   width: 40px;
-  height: 40px;
-  margin-top: 30px;
-  margin-left: -400px;
+}
+
+.Habilidades {
+  width: 400px;
 }
 .Habilidades img {
-  width: 40px;
-  height: 40px;
-  padding: 8px;
-  margin: auto;
+  display: flex;
 }
 .Habilidades h2 {
   text-align: center;
 }
-.Habilidades {
-  margin-left: 250px;
+.Habilidades img {
+  justify-content: center;
+  align-items: center;
+  margin: auto;
 }
 .icone h2 {
   text-align: center;
@@ -107,16 +112,15 @@ section {
 .DevHabilidade {
   display: flex;
   text-align: center;
+  height: 150px;
+}
+.DevHabilidade img {
+  width: 40px;
+  margin-left: -90px;
 }
 .DevHabilidade img:hover {
   opacity: 25%;
   transition: 0.8s;
-}
-.DevHabilidade img {
-  width: 40px;
-  height: 40px;
-  margin-left: -90px;
-  display: flex;
 }
 .Habilidades img:hover {
   opacity: 25%;
@@ -128,6 +132,7 @@ section {
   border-radius: 50%;
   display: flex;
   margin: auto;
+  margin-top: 200px;
 }
 
 .perfil p {
@@ -213,56 +218,52 @@ section {
   box-shadow: 0.5px 15px rgba(0, 0, 0, 0.2);
 }
 .Projetos .card .contener a:hover {
-color: #fff;
-background-color: #000;
-transition: 0.5s;
-opacity: 75%;
-  
+  color: #fff;
+  background-color: #000;
+  transition: 0.5s;
+  opacity: 75%;
 }
 
 /* Contatos */
-footer{
+footer {
   margin-top: 450px;
-display: flex;
-margin-bottom: 250px;
-}
-.contatosh1{
-margin: auto;
-}
-footer img{
-  width: 50px;
-  margin-top: 100px;
-}
-footer a{
-align-items: center;
-margin: 15px;
-
-}
-.contatos{
   display: flex;
-  width: 250px;
+  margin-bottom: 250px;
+}
+.contatosh1 {
   margin: auto;
 }
-.contatos a:hover{
+footer img {
+  width: 50px;
+  margin: auto;
+  margin-top: 30px;
+}
+footer a {
+  align-items: center;
+  margin: 15px;
+}
+.contatos {
+  text-align: center;
+  margin: auto;
+}
+.contatos a:hover {
   opacity: 45%;
   transition: 0.3s;
 }
 
-.email{
-justify-content: center;
-text-align: center;
-width: 170px;
-height: 15px;
-margin-top: 290px;
-
+.email {
+  justify-content: center;
+  text-align: center;
+  width: 170px;
+  margin: auto;
+  opacity: 70%;
 }
-.email a{
+.email a {
   color: #16f0029a;
-
 }
-.email img{
-width: 30px;
-margin: auto;
-margin-left: 130px;
-margin-bottom: -15px;
+.email img {
+  width: 30px;
+  margin: auto;
+  margin-left: 130px;
+  margin-bottom: -15px;
 }
